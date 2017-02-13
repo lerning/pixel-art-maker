@@ -1,13 +1,25 @@
+body {
+   background-image: url(http://cdn.wallpapersafari.com/53/10/M2toW3.jpg);
+}
+
 header {
-   font-size: 50px;
+   font-size: 54px;
    text-align: center;
    font-family: papyrus;
+   /*border: 3px solid white;*/
+   border-radius: 20px;
+   height: 60px;
+   width: 540px;
+   margin: auto;
+   margin-bottom: 20px;
+   //background-color: white;
 }
 
 section {
    margin: auto;
-   height: 400px;
-   width:1000px;
+   height: 420px;
+   width:940px;
+   border: 1px solid black;
 }
 
 .pixel{
@@ -23,18 +35,29 @@ section {
 #pal {
    clear: both;
    display: block;
-   width: 300px;
-   height: 80px;
-   border: 1px solid grey;
+   width: 780px;
+   height: 40px;
+   /*border: 3px solid white;*/
    border-radius: 8px;
-   background-color: white;
+   background-color: transparent;
    margin: auto;
-   margin-top: 20px;
+   margin-top: 15px;
 }
-
-.color {
+#clear {
+   width: 200px;
    height: 30px;
-   width: 30px;
+   display: block;
+   font-size: 24px;
+   border: 1px solid black;
+   border-radius: 4px;
+   margin: auto;
+   margin-top: 15px;
+   text-align: center;
+   background-color: white;
+}
+.color {
+   height: 35px;
+   width: 35px;
    border: 1px solid black;
    border-radius: 100%;
    float: left;
